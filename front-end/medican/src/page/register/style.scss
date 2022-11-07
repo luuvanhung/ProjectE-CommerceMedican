@@ -1,0 +1,29 @@
+.ant-form legend {
+    border-bottom: 0px solid #d9d9d9;
+}
+.article {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 1.25rem;
+}
+.fieldset {
+    margin: 1.125rem 0;
+    padding: 1.25rem;
+    border: 1px solid #dcddde;
+    legend {
+        margin: 0;
+        width: auto;
+        margin-left: -0.1875rem;
+        padding: 0 0.1875rem;
+        font-weight: 500;
+        color: #000e00bb;
+    }
+    .ant-form-item-label label {
+        width: 100px;
+    }
+}
+@media screen and (max-width: 468px) {
+    .stripe {
+        padding: 1rem 1rem;
+    }
+}

@@ -1,0 +1,9 @@
+.sub-categories-form {
+    flex: 4;
+}
+
+.sub-categories-form .item {
+    display: block;
+    /* margin: 0 auto; */
+    max-width: 90%;
+}

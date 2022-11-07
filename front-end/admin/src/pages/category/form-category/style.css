@@ -1,0 +1,22 @@
+.form {
+    flex: 4;
+}
+
+.form .categories-form {
+    display: block;
+    /* margin: 0 auto; */
+    max-width: 90%;
+}
+/* .categories-form .onSubmit {
+    display: flex;
+    justify-content: center;
+} */
+/* .categories-form .onSubmit button {
+    margin: 10px;
+} */
+.addProductItem {
+    /* width: 250px; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}

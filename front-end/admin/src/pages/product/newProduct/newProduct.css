@@ -1,0 +1,73 @@
+.newProduct {
+    flex: 4;
+}
+
+.addProductForm {
+    margin-top: 10px;
+}
+
+.addProductItem {
+    /* width: 250px; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addProductItem > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.addProductItem > input {
+    padding: 10px;
+}
+
+.addProductItem > select {
+    padding: 10px;
+}
+
+.addProductButton {
+    display: block;
+    margin: 15px auto;
+    height: 40px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ant-form-item-required {
+    color: gray;
+    font-weight: 600;
+}
+
+.ant-input-number {
+    width: 100%;
+}
+.ant-form-item-label label {
+    color: gray;
+    font-weight: 600;
+}
+.addProductItem p {
+    color: gray;
+    font-weight: 600;
+}
+.dimensions {
+    display: flex;
+    justify-content: space-between;
+}
+.dimensions .ant-form-item {
+    row-gap: 0px;
+    display: flex;
+}
+.dimensions .ant-form-item label {
+    width: 100px;
+}
+.addProductItemDescription {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
